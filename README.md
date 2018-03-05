@@ -1,6 +1,8 @@
-# Express batches API
+# Express restaurants API
 
-RESTful Express API for batches on top of MongoDB.
+RESTful Express API for foodie-app on top of MongoDB.
+
+**Note: this api is work-in-progress, I've just started building this foodie-react-app on 28th Feb.**
 
 ## Authentication
 
@@ -28,18 +30,18 @@ Authorization: Bearer <token here>
 
 _**Note**: See `db/seed.js` for an example._
 
-## batches
+## restaurants
 
-**Note:** See `models/batch.js` for the Batch schema attributes.
+**Note:** See `models/restaurant.js` for the Restaurant schema attributes.
 
 | HTTP Verb | Path | Description |
 |-----------|------|--------------|
-| `GET` | `/batches` | Retrieve all batches |
-| `POST` | `/batches` | Create a batch* |
-| `GET` | `/batches/:id` | Retrieve a single batch by it's `id` |
-| `PUT` | `/batches/:id` | Update a batch with a specific `id`* |
-| `PATCH` | `/batches/:id` | Patch (partial update) a batch with a specific `id`* |
-| `DELETE` | `/batches/:id` | Destroy a single batch by it's `id`* |
+| `GET` | `/restaurants` | Retrieve all restaurants |
+| `POST` | `/restaurants` | Create a restaurant* |
+| `GET` | `/restaurants/:id` | Retrieve a single restaurant by it's `id` |
+| `PUT` | `/restaurants/:id` | Update a restaurant with a specific `id`* |
+| `PATCH` | `/restaurants/:id` | Patch (partial update) a restaurant with a specific `id`* |
+| `DELETE` | `/restaurants/:id` | Destroy a single restaurant by it's `id`* |
 | | | _* Needs authentication_ |
 
-_**Note**: Run `yarn run seed` to seed some initial batches._
+_**Note**: Run `yarn run seed` to seed some initial restaurants._
