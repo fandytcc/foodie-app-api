@@ -1,413 +1,475 @@
-[{
-		"title": "1",
-		"recipes": [{
-				"name": "Jason Lo",
-				"photo": "https://coenv-media-gene1ufvxiloffjq.stackpathdns.com/2017/11/2017-18-Graduate-Recipe-Profile_Campbell-200x200.jpg",
-				"evaluations": [{
-						"code": "Y",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 23, 2018 "
+[
+	{
+		"name": "Homemade - Fresh Food & Drinks",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 20 422 3168",
+		"url": "http://www.homemadeshop.nl",
+		"location": {
+			"address": "Singel 447",
+			"postalCode": "1012 WP",
+			"district": "Amsterdam Centrum",
+			"country": "Netherlands",
+			"lat": 52.36729984225847,
+			"lng": 4.890536069869995
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,cafe"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,coffee"
+			}
+		],
+		"price": {
+			"cheapEats": false,
+			"midRange": true,
+			"fineDining": false
+		},
+		"types": {
+			"breakfast": true,
+			"lunch": true,
+			"dinner": false,
+			"cafe": true,
+			"dessert": false
+		},
+		"dietaryType": {
+			"vegetarian": true,
+			"vegan": true,
+			"halal": false,
+			"glutenFree": false
+		},
+		"rating": 4.2,
+		"reviews": [{
+				"title": "A miracle",
+				"remark": "Excellent food and ambience.. Gentle and helpful staff. Overall a must for Indian food lovers.",
+				"overallRating": 5,
+				"serviceRating": 3,
+				"foodRating": 5,
+				"valueRating": 4,
+				"dishes": [{
+						"name": "Irish coffee"
 					},
 					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 21, 2018 "
+						"name": "Almond Cake"
 					}
 				]
 			},
 			{
-				"name": "Peter Pan",
-				"photo": "https://www.keele.ac.uk/media/keeleuniversity/generalimagebank/200x200px/Adrian-Craig-200x200.jpg",
-				"evaluations": [{
-						"code": "R",
-						"remark": "Try harder!",
-						"evaluatedAt": "Jan 23, 2018"
+				"title": "Good and drink",
+				"remark": "The setting is lovely. The restaurant is clean and comfortable and the staff are excellent, attentive and a pleasure to chat with. The food was ok, it wasn't bad by any means but didn't stand out.",
+				"overallRating": 3,
+				"serviceRating": 3,
+				"foodRating": 3,
+				"valueRating": 2,
+				"dishes": [{
+						"name": "Irish coffee"
 					},
 					{
-						"code": "R",
-						"remark": "Need more attention",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "Good job!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "James Wong",
-				"photo": "https://www.babble.com/wp-content/uploads/2016/03/AmosDudleyheadshot-200x200.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try harder!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Mary Lo",
-				"photo": "https://www.japantimes.co.jp/wp-content/uploads/2016/02/n-myanmar-a-20160203-200x200.jpg",
-				"evaluations": [{
-						"code": "R",
-						"remark": "Try harder!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Need more attention",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try harder!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Cat Lo",
-				"photo": "https://info.lse.ac.uk/staff/divisions/academic-registrars-division/Assets/Images/Amy-Tijou-200x200.jpg",
-				"evaluations": [{
-						"code": "Y",
-						"remark": "OK",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "OK",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "OK",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Queenie Leung",
-				"photo": "https://info.lse.ac.uk/staff/divisions/academic-registrars-division/Assets/Images/Alice-Else-200x200.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "Good job!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Awesome!",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "Google more!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Elisa Boel",
-				"photo": "https://www.superprof.us/images/teachers/tutoring-gpa-vanderbilt-recipe-gives-help-with-any-homework-recipes-primary-middle-high-school-over-webcam.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Ken Cheung",
-				"photo": "https://www.bucknell.edu/images/Depts/Profiles2017/GuzmanJustin19-200x200.jpg",
-				"evaluations": [{
-						"code": "R",
-						"remark": "Try harder!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "Need more attention",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Sebastian Lam",
-				"photo": "http://law.missouri.edu/prospective/files/2017/09/Aaron-200x200.jpg",
-				"evaluations": [{
-						"code": "Y",
-						"remark": "OK",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "Try harder",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Roberto Chan",
-				"photo": "https://www.scu.edu/media/leavey-school-of-business/fai/fai-people/Matt-Ryan-200sq-thumbnail-200x200.jpg",
-				"evaluations": [{
-						"code": "R",
-						"remark": "Try harder!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Need more attention",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job!",
-						"evaluatedAt": "Jan 21, 2018 "
+						"name": "Almond Cake"
 					}
 				]
 			}
-		],
-		"startDate": "Dec 10, 2018",
-		"endDate": "Feb 10, 2018"
+		]
 	},
 	{
-		"title": "2",
-		"recipes": [{
-				"name": "Danny Koh",
-				"photo": "http://www.nyls.edu/admissions/wp-content/uploads/sites/144/2017/03/Callinan-200x200.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
+		"name": "STACH food",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 20 737 2626",
+		"url": "http://www.stach-food.nl/",
+		"location": {
+			"address": "Haarlemmerstraat 150",
+			"postalCode": "1013 EZ",
+			"district": "Amsterdam Centrum",
+			"country": "Netherlands",
+			"lat": 52.371004437786475,
+			"lng": 4.898924662635418
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,cake"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,bread"
+			}
+		],
+		"price": {
+			"cheapEats": true,
+			"midRange": false,
+			"fineDining": false
+		},
+		"types": {
+			"breakfast": true,
+			"lunch": true,
+			"dinner": false,
+			"cafe": false,
+			"dessert": false
+		},
+		"dietaryType": {
+			"vegetarian": true,
+			"vegan": true,
+			"halal": false,
+			"glutenFree": true
+		},
+		"rating": 3.7,
+		"reviews": [{
+				"title": "Lovely Coffee, Amazing Sweet Treats",
+				"remark": "Wonderful place to grab a quick coffee or pastry. We stopped for breakfast one morning and got coffee, a croissant, and a smashed avocado sandwich. ",
+				"overallRating": 3,
+				"serviceRating": 4,
+				"foodRating": 4,
+				"valueRating": 3,
+				"dishes": [{
+						"name": "Homebrew coffee"
 					},
 					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 21, 2018 "
+						"name": "Croissant"
 					}
 				]
 			},
 			{
-				"name": "Paul Cheese",
-				"photo": "http://www.nyls.edu/admissions/wp-content/uploads/sites/144/2017/03/Binder-200x200.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try google more.",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "keep it going!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Susan Lo",
-				"photo": "http://medschool.ucla.edu/images/match-day-2017/AMY-PATEL-200X200.JPG",
-				"evaluations": [{
-						"code": "Y",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "okay",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Oliver Key",
-				"photo": "http://www.nyls.edu/admissions/wp-content/uploads/sites/144/2017/03/Christopher-Fernandez-200x200.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try google more.",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "try harder",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Alice Leung",
-				"photo": "https://www.chinquapin.org/website/images/arodriguez.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Google more",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Matt Peth",
-				"photo": "http://www.chrisducker.com/wp-content/uploads/2015/10/lewishowesschoolofgreatness-200x200.jpeg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try google more.",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "need more attention",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "John Hap",
-				"photo": "https://8300-presscdn-0-4-pagely.netdna-ssl.com/blog/wp-content/uploads/2017/12/dash_stephen_350-200x200.jpg",
-				"evaluations": [{
-						"code": "Y",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "Y",
-						"remark": "okay",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Alicia Chui",
-				"photo": "https://static1.squarespace.com/static/57c7126d46c3c44992d9e594/t/591098d2ff7c502e783d7cd8/1494259924202/",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try google more.",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "try harder",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Lorence France",
-				"photo": "http://news.pioneergroup.com/manisteenews/wp-content/uploads/2017/04/John-Schaefer-pic-200x200.jpg",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "Good job",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "G",
-						"remark": "You are doing great!",
-						"evaluatedAt": "Jan 21, 2018 "
-					}
-				]
-			},
-			{
-				"name": "Xander Ox",
-				"photo": "https://carleton.ca/npsia/wp-content/uploads/Hadley-200x200.png",
-				"evaluations": [{
-						"code": "G",
-						"remark": "You are awesome!",
-						"evaluatedAt": "Jan 23, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Try google more.",
-						"evaluatedAt": "Jan 22, 2018 "
-					},
-					{
-						"code": "R",
-						"remark": "Need more attention",
-						"evaluatedAt": "Jan 21, 2018 "
+				"title": "Wow!",
+				"remark": "Came across the place during my visit in Amsterdam! Loved every single bit of it! Great friendly staff & delicious products! If you're a foodie, this will be heaven for you!",
+				"overallRating": 4,
+				"serviceRating": 3,
+				"foodRating": 3,
+				"valueRating": 3,
+				"dishes": [{
+						"name": "Homemade Croissant"
 					}
 				]
 			}
+		]
+	},
+	{
+		"name": "St. Anny Food",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 20 341 6606",
+		"url": "http://annyfood.com",
+		"location": {
+			"address": "Stormsteeg 8",
+			"postalCode": "1012 BD",
+			"district": "Amsterdam Centrum",
+			"country": "Netherlands",
+			"lat": 52.37406002111417,
+			"lng": 4.895094687961053
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,dish"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,food"
+			}
 		],
-		"startDate": "Jan 20, 2018",
-		"endDate": "Mar 24, 2018"
+		"price": {
+			"cheapEats": false,
+			"midRange": true,
+			"fineDining": false
+		},
+		"types": {
+			"breakfast": false,
+			"lunch": true,
+			"dinner": true,
+			"cafe": false,
+			"dessert": false
+		},
+		"dietaryType": {
+			"vegetarian": false,
+			"vegan": false,
+			"halal": true,
+			"glutenFree": true
+		},
+		"rating": 4.9,
+		"reviews": [{
+				"title": "Great food, great price, friendly staff!",
+				"remark": "We ad a great meal at Fermier Gourmet. The portions were very generous, the meat was tasty and succulent. They provide gluten free options. Although the place is pretty small, staff is very kind and the service is fast.",
+				"overallRating": 4,
+				"serviceRating": 5,
+				"foodRating": 5,
+				"valueRating": 5,
+				"dishes": [{
+						"name": "Spaghetti carbonara"
+					}
+				]
+			},
+			{
+				"title": "Our new favourite restaurant!!",
+				"remark": "Really good food, cheap and great service. I had the beef and it was fantastic! If you are in Paris nearby this place then go there 🙏",
+				"overallRating": 4,
+				"serviceRating": 4,
+				"foodRating": 5,
+				"valueRating": 5,
+				"dishes": [{
+						"name": "grilled burger"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Vegan Junk Food Bar",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 20 341 6606",
+		"url": "https://www.veganjunkfoodbar.com/",
+		"location": {
+			"address": "Staringplein 22",
+			"postalCode": "1054 VJ",
+			"district": "De Pijp",
+			"country": "Netherlands",
+			"lat": 52.360454488116105,
+			"lng": 4.863290221807863
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,burger"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,vegan"
+			}
+		],
+		"price": {
+			"cheapEats": true,
+			"midRange": false,
+			"fineDining": false
+		},
+		"types": {
+			"breakfast": false,
+			"lunch": true,
+			"dinner": true,
+			"cafe": false,
+			"dessert": false
+		},
+		"dietaryType": {
+			"vegetarian": true,
+			"vegan": true,
+			"halal": true,
+			"glutenFree": true
+		},
+		"rating": 3.1,
+		"reviews": [{
+				"title": "Food is ok",
+				"remark": "We ad a great meal at Fermier Gourmet. The portions were very generous, the meat was tasty and succulent. They provide gluten free options. Although the place is pretty small, staff is very kind and the service is fast.",
+				"overallRating": 3,
+				"serviceRating": 2,
+				"foodRating": 3,
+				"valueRating": 2,
+				"dishes": [{
+						"name": "none"
+					}
+				]
+			},
+			{
+				"title": "New vegan hip place",
+				"remark": "Really good food, cheap and great service. I had the beef and it was fantastic! If you are in Paris nearby this place then go there ",
+				"overallRating": 4,
+				"serviceRating": 4,
+				"foodRating": 5,
+				"valueRating": 5,
+				"dishes": [{
+						"name": "grilled burger"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Sweet Bob Amsterdam",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 6 33226309",
+		"url": "http://www.sweetbob.nl/",
+		"location": {
+			"address": "Brouwersgracht 113",
+			"postalCode": "1015 GD",
+			"district": "Jordaan",
+			"country": "Netherlands",
+			"lat": 52.380925,
+			"lng": 4.887229
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,cake"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,coffee"
+			}
+		],
+		"price": {
+			"cheapEats": false,
+			"midRange": false,
+			"fineDining": true
+		},
+		"types": {
+			"breakfast": false,
+			"lunch": true,
+			"dinner": false,
+			"cafe": true,
+			"dessert": true
+		},
+		"dietaryType": {
+			"vegetarian": true,
+			"vegan": false,
+			"halal": false,
+			"glutenFree": true
+		},
+		"rating": 4.2,
+		"reviews": [{
+				"title": "Amazing place!",
+				"remark": "Absolutely the most amazing selection of ultra creative brigadeiros. Tasty, beautiful and pretty cheap for what they are. Great hot chocolate and coffee. These guys know what they are doing :)",
+				"overallRating": 4,
+				"serviceRating": 4,
+				"foodRating": 4,
+				"valueRating": 5,
+				"dishes": [{
+						"name": "cappucino"
+					},
+					{
+						"name:": "Carrot cake"
+					}
+				]
+			},
+			{
+				"title": "Lovely but no bathroom",
+				"remark": "Lovely staff and amazing brigadeiro, but its a shame there is no bathroom for customers! A bit annoying!",
+				"overallRating": 3,
+				"serviceRating": 2,
+				"foodRating": 4,
+				"valueRating": 3,
+				"dishes": [{
+						"name": "Carrot cake"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Ron Gastrobar",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 20 496 1943",
+		"url": "http://www.rongastrobar.nl/",
+		"location": {
+			"address": "Sophialaan 55hs",
+			"postalCode": "1075 BP",
+			"district": "Vondelpark",
+			"country": "Netherlands",
+			"lat": 52.352223,
+			"lng": 4.856691
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,dining"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,dinner"
+			}
+		],
+		"price": {
+			"cheapEats": false,
+			"midRange": false,
+			"fineDining": true
+		},
+		"types": {
+			"breakfast": false,
+			"lunch": true,
+			"dinner": true,
+			"cafe": false,
+			"dessert": false
+		},
+		"dietaryType": {
+			"vegetarian": true,
+			"vegan": false,
+			"halal": true,
+			"glutenFree": false
+		},
+		"rating": 2.5,
+		"reviews": [{
+				"title": "Stylish, good food",
+				"remark": "We had a nice steak here. The food was pretty good, and the restaurant was stylish. It was expensive, though, and slow (2 hours+, even without an appetizer). Good but not amazing.",
+				"overallRating": 4,
+				"serviceRating": 3,
+				"foodRating": 4,
+				"valueRating": 2,
+				"dishes": [{
+						"name": "oyster"
+					},
+					{
+						"name:": "roasted chicken"
+					}
+				]
+			},
+			{
+				"title": "Not worth it",
+				"remark": "Small portions and bad service. We ordered cocktails and food. Our food came before the drinks and the bartender was not even busy. Very small portions. All three of us left hungry.",
+				"overallRating": 2,
+				"serviceRating": 5,
+				"foodRating": 3,
+				"valueRating": 2,
+				"dishes": [{
+						"name": "none"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Zazas",
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend convallis sem, non consectetur purus. Nunc a ullamcorper velit. Quisque sed ultrices justo, sit amet dapibus purus. Ut faucibus sapien turpis, at finibus mauris placerat ut. Maecenas ut ullamcorper lectus, eu scelerisque erat. Ut sed tempor metus. Etiam nec sodales elit. Proin sit amet ex eu massa egestas interdum.",
+		"phone": "+31 20 673 6333",
+		"url": "http://www.zazas.nl",
+		"location": {
+			"address": "Daniel Stalpertstraat 103hs",
+			"postalCode": "1072 XD",
+			"district": "De Pijp",
+			"country": "Netherlands",
+			"lat": 52.356155,
+			"lng": 4.892029
+		},
+		"photos": [{
+				"url": "https://source.unsplash.com/580x580/?restaurant,french"
+			},
+			{
+				"url": "https://source.unsplash.com/580x580/?restaurant,dining"
+			}
+		],
+		"price": {
+			"cheapEats": false,
+			"midRange": false,
+			"fineDining": true
+		},
+		"types": {
+			"breakfast": false,
+			"lunch": true,
+			"dinner": false,
+			"cafe": true,
+			"dessert": true
+		},
+		"dietaryType": {
+			"vegetarian": true,
+			"vegan": false,
+			"halal": false,
+			"glutenFree": true
+		},
+		"rating": 4.5,
+		"reviews": [{
+				"title": "Romantic dinner",
+				"remark": "Great food,Amazing service and moderate price.We had a wonderful romantic dinner. The dishes were sophisticated and tastefully. Next time in Amsterdam we shall be back.",
+				"overallRating": 4,
+				"serviceRating": 4,
+				"foodRating": 4,
+				"valueRating": 5,
+				"dishes": [{
+						"name": "grilled seafood"
+					},
+					{
+						"name:": "white wine"
+					}
+				]
+			},
+			{
+				"title": "Phenomenal",
+				"remark": "Visited Zazas for a birthday meal. The food was lovely, as were the staff. I would recommend a visit if in the area. Thank you",
+				"overallRating": 4,
+				"serviceRating": 5,
+				"foodRating": 4,
+				"valueRating": 5,
+				"dishes": [{
+						"name": "oysters"
+					}
+				]
+			}
+		]
 	}
 ]

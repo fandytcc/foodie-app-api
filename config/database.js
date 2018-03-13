@@ -1,5 +1,5 @@
 // config/database.js
-const mongoose = require('mongoose')
+const mongoose = require('mongoose') require('mongoose-double')(mongoose)
 
 // Use native promises
 mongoose.Promise = global.Promise

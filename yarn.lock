@@ -1223,6 +1223,10 @@ mongodb@2.2.34:
     mongodb-core "2.1.18"
     readable-stream "2.2.7"
 
+mongoose-double@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/mongoose-double/-/mongoose-double-0.0.1.tgz#c0be57852e7adc9cb9dcf9228b5cc6a9130a46ef"
+
 mongoose@^4.12.4:
   version "4.13.11"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.13.11.tgz#da6edf8e399054e12836016316999519a358db43"
