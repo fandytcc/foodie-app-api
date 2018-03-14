@@ -1,7 +1,7 @@
 // models/restaurant.js
 const mongoose = require('../config/database')
 const { Schema } = mongoose
-const SchemeTypes = mongoose.Schema.Types
+// const SchemeTypes = mongoose.Schema.Types
 
 // const recipeSchema = new Schema({
 //   title: { type: String, required: true },
@@ -50,8 +50,10 @@ const restaurantSchema = new Schema({
     district: { type: String, required: false },
     city: { type: String, required: false },
     country: { type: String, required: true },
-    lat: { type: SchemaTypes.Double, required: true },
-    lng: { type: SchemaTypes.Double, required: true },
+    geo: {
+      type: [Number],
+      index: '2d'
+    }
   },
   photos: [{
     url: { type: String, required: false, default: 'http://via.placeholder.com/500x180?text=No%20Image' },
@@ -75,7 +77,7 @@ const restaurantSchema = new Schema({
     halal: { type: Boolean, default: false },
     glutenFree: { type: Boolean, default: false },
   },
-  rating: { type: SchemaTypes.Double, min: 0, max: 5},
+  avgRating: { type: Number, min: 0, max: 5 },
   reviews: [reviewSchema],
   // recipes: [recipeSchema],
   likedBy: [{ type: Schema.Types.ObjectId, ref: 'users' }],

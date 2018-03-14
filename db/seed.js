@@ -13,7 +13,7 @@ const createrestaurants = (token) => {
       .set('Authorization', `Bearer ${token}`)
       .send(restaurant)
       .then((res) => {
-        console.log('Restaurant seeded...', res.body.title)
+        console.log('Restaurant seeded...', res.body.name)
       })
       .catch((err) => {
         console.error('Error seeding restaurant!', err)

@@ -9,8 +9,10 @@
 			"postalCode": "1012 WP",
 			"district": "Amsterdam Centrum",
 			"country": "Netherlands",
-			"lat": 52.36729984225847,
-			"lng": 4.890536069869995
+			"geo": [
+				4.890536069869995,
+				52.36729984225847
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,cafe"
@@ -37,7 +39,7 @@
 			"halal": false,
 			"glutenFree": false
 		},
-		"rating": 4.2,
+		"avgRating": 4.2,
 		"reviews": [{
 				"title": "A miracle",
 				"remark": "Excellent food and ambience.. Gentle and helpful staff. Overall a must for Indian food lovers.",
@@ -80,8 +82,10 @@
 			"postalCode": "1013 EZ",
 			"district": "Amsterdam Centrum",
 			"country": "Netherlands",
-			"lat": 52.371004437786475,
-			"lng": 4.898924662635418
+			"geo": [
+				4.898924662635418,
+				52.371004437786475
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,cake"
@@ -108,7 +112,7 @@
 			"halal": false,
 			"glutenFree": true
 		},
-		"rating": 3.7,
+		"avgRating": 3.7,
 		"reviews": [{
 				"title": "Lovely Coffee, Amazing Sweet Treats",
 				"remark": "Wonderful place to grab a quick coffee or pastry. We stopped for breakfast one morning and got coffee, a croissant, and a smashed avocado sandwich. ",
@@ -148,8 +152,10 @@
 			"postalCode": "1012 BD",
 			"district": "Amsterdam Centrum",
 			"country": "Netherlands",
-			"lat": 52.37406002111417,
-			"lng": 4.895094687961053
+			"geo": [
+				4.895094687961053,
+				52.37406002111417
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,dish"
@@ -176,7 +182,7 @@
 			"halal": true,
 			"glutenFree": true
 		},
-		"rating": 4.9,
+		"avgRating": 4.9,
 		"reviews": [{
 				"title": "Great food, great price, friendly staff!",
 				"remark": "We ad a great meal at Fermier Gourmet. The portions were very generous, the meat was tasty and succulent. They provide gluten free options. Although the place is pretty small, staff is very kind and the service is fast.",
@@ -213,8 +219,10 @@
 			"postalCode": "1054 VJ",
 			"district": "De Pijp",
 			"country": "Netherlands",
-			"lat": 52.360454488116105,
-			"lng": 4.863290221807863
+			"geo": [
+				4.863290221807863,
+				52.360454488116105
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,burger"
@@ -241,7 +249,7 @@
 			"halal": true,
 			"glutenFree": true
 		},
-		"rating": 3.1,
+		"avgRating": 3.1,
 		"reviews": [{
 				"title": "Food is ok",
 				"remark": "We ad a great meal at Fermier Gourmet. The portions were very generous, the meat was tasty and succulent. They provide gluten free options. Although the place is pretty small, staff is very kind and the service is fast.",
@@ -278,8 +286,10 @@
 			"postalCode": "1015 GD",
 			"district": "Jordaan",
 			"country": "Netherlands",
-			"lat": 52.380925,
-			"lng": 4.887229
+			"geo": [
+				4.887229,
+				52.380925
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,cake"
@@ -306,7 +316,7 @@
 			"halal": false,
 			"glutenFree": true
 		},
-		"rating": 4.2,
+		"avgRating": 4.2,
 		"reviews": [{
 				"title": "Amazing place!",
 				"remark": "Absolutely the most amazing selection of ultra creative brigadeiros. Tasty, beautiful and pretty cheap for what they are. Great hot chocolate and coffee. These guys know what they are doing :)",
@@ -346,8 +356,10 @@
 			"postalCode": "1075 BP",
 			"district": "Vondelpark",
 			"country": "Netherlands",
-			"lat": 52.352223,
-			"lng": 4.856691
+			"geo": [
+				4.856691,
+				52.352223
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,dining"
@@ -374,7 +386,7 @@
 			"halal": true,
 			"glutenFree": false
 		},
-		"rating": 2.5,
+		"avgRating": 2.5,
 		"reviews": [{
 				"title": "Stylish, good food",
 				"remark": "We had a nice steak here. The food was pretty good, and the restaurant was stylish. It was expensive, though, and slow (2 hours+, even without an appetizer). Good but not amazing.",
@@ -414,8 +426,10 @@
 			"postalCode": "1072 XD",
 			"district": "De Pijp",
 			"country": "Netherlands",
-			"lat": 52.356155,
-			"lng": 4.892029
+			"geo": [
+				4.892029,
+				52.356155
+			]
 		},
 		"photos": [{
 				"url": "https://source.unsplash.com/580x580/?restaurant,french"
@@ -442,7 +456,7 @@
 			"halal": false,
 			"glutenFree": true
 		},
-		"rating": 4.5,
+		"avgRating": 4.5,
 		"reviews": [{
 				"title": "Romantic dinner",
 				"remark": "Great food,Amazing service and moderate price.We had a wonderful romantic dinner. The dishes were sophisticated and tastefully. Next time in Amsterdam we shall be back.",
